@@ -1,0 +1,8 @@
+.postItem {
+  min-height: 60px;
+  width: 100%;
+  background-color: var(--color-neutral-2);
+  margin-bottom: 2px;
+  padding: 20px 30px;
+  font-family: var(--font-roboto-regular);
+}

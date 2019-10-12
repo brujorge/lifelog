@@ -1,0 +1,29 @@
+:root {
+  --font-roboto-regular: "Roboto-Regular", Tahoma, sans-serif;
+  --font-roboto-medium: "Roboto-Medium", Tahoma, sans-serif;
+  --font-roboto-bold: "Roboto-Bold", Tahoma, sans-serif;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("~assets/fonts/Roboto-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("~assets/fonts/Roboto-Bold.woff2") format("woff2");
+}

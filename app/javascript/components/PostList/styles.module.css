@@ -1,0 +1,46 @@
+.wrapper {
+  width: 1134px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+}
+
+.newPostButton {
+  width: 242px;
+  height: 90px;
+  background-color: var(--color-cyanide-1);
+  border: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-roboto-regular);
+  font-size: 30px;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.searchInput {
+  width: 854px;
+  border: var(--color-neutral-1);
+  border-radius: 45px;
+  margin-left: 38px;
+  padding-left: 100px;
+  color: black;
+
+  &::placeholder {
+    color: var(--color-neutral-1);
+    font-family: var(--font-roboto-regular);
+  }
+}
+
+.postList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+}
