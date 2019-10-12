@@ -1,0 +1,19 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "",
+  "env": {
+    "REVIEW_APPS": "true"
+  },
+  "formation": {
+  },
+  "name": "lifelog",
+  "scripts": {
+    "postdeploy": "rails db:seed"
+  },
+  "stack": "heroku-18"
+}
